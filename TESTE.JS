@@ -1,0 +1,6 @@
+let nome1 = prompt("Digite seu nome: ")
+let nome2 = prompt("Digite seu sobrenome: ")
+let estudo = prompt("O que você estuda? ")
+let anoNascimento = prompt("Seu ano de nascimento: ")
+let idade = (anoNascimento - 2024)*(-1)
+alert(`Cadastrado realizado com sucesso!\n${nome1} ${nome2} \n${estudo}\n${idade}`)
